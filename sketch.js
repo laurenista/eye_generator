@@ -1,7 +1,7 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
   d=select('.div-block');
-  d.position(0,0);
+  d.position(20,0);
   gui=new Gui();
   let gui_setup=new dat.GUI();
   gui_setup.add(gui,'height',10,200);
